@@ -1,0 +1,48 @@
+Median radius: 3.08 kpc   Largest radius: 7.55 kpc
+Observed spread (km/s):  biweight 8.45   nmad 4.45   rms 14.08
+C for the baseline: 1.900
+Baseline mass: 3.70e+08 Msun   (published < 3.4e8)
+Mass inside the half-number radius: 3.18e+08 Msun   (published < 3.2e8)
+
+=== Intrinsic dispersion for each estimator (km/s) ===
+biweight  best 3.3   1-sigma (0.0, 8.5)   90% limit 10.5
+nmad      best 0.0   1-sigma (0.0, 0.0)   90% limit 3.6
+rms       best 12.0   1-sigma (7.6, 17.7)   90% limit 19.8
+likelihood: mode 10.3  median 11.8  16-84% (7.7, 17.5)  90% bound 19.7
+
+=== Mass for each estimator (M and M/Mstar) ===
+biweight  best fit: 3.63e+07 (0.18)   90% limit: 3.68e+08 (1.84)
+nmad      best fit: 0.00e+00 (0.00)   90% limit: 4.35e+07 (0.22)
+rms       best fit: 4.87e+08 (2.43)   90% limit: 1.32e+09 (6.59)
+likelihood mode 3.53e+08 (1.77)   median 4.65e+08 (2.33)   90% bound 1.30e+09 (6.49)
+
+=== Dynamical assumptions at sigma = 10.5 ===
+alpha=-1   mass 2.93e+08   ratio to baseline 0.79
+alpha=+1   mass 2.77e+08   ratio to baseline 0.75
+beta=-1    mass 4.56e+08   ratio to baseline 1.23
+beta=0.5   mass 2.63e+08   ratio to baseline 0.71
+beta=0.75  mass 1.56e+08   ratio to baseline 0.42
+gamma=0.5  mass 2.92e+08   ratio to baseline 0.79
+gamma=1.5  mass 4.87e+08   ratio to baseline 1.32
+joint Monte Carlo: median 0.99, 16-84% (0.73, 1.26)
+
+=== Leave-one-out ===
+without GC-39   sigma_90 6.7  r_out 6.77  mass 1.34e+08  M/Mstar 0.67
+without GC-59   sigma_90 13.9  r_out 7.55  mass 6.41e+08  M/Mstar 3.20
+without GC-71   sigma_90 12.8  r_out 7.55  mass 5.46e+08  M/Mstar 2.73
+without GC-73   sigma_90 6.4  r_out 7.55  mass 1.36e+08  M/Mstar 0.68
+without GC-77   sigma_90 12.8  r_out 7.55  mass 5.50e+08  M/Mstar 2.75
+without GC-85   sigma_90 13.1  r_out 7.55  mass 5.76e+08  M/Mstar 2.88
+without GC-91   sigma_90 13.9  r_out 7.55  mass 6.47e+08  M/Mstar 3.23
+without GC-92   sigma_90 7.1  r_out 7.55  mass 1.67e+08  M/Mstar 0.84
+without GC-98   sigma_90 10.3  r_out 7.55  mass 3.54e+08  M/Mstar 1.77
+without GC-101  sigma_90 13.8  r_out 7.55  mass 6.39e+08  M/Mstar 3.20
+
+=== Bootstrap ===
+usable resamples: 499, fraction with sigma_90 = 0: 0.29
+mass percentiles 50 / 84 / 90: 2.54e+08 / 1.72e+09 / 2.22e+09
+fraction of resamples with mass above the stellar mass: 0.54
+
+=== Comparison with the stellar mass (baseline) ===
+M / Mstar = 1.85   M - Mstar = 1.70e+08 Msun
+
